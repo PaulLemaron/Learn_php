@@ -52,9 +52,18 @@ foreach ($array as $value) {
 For every loop iteration, the value of the current array element is
  assigned to $value and the array pointer is moved by one,
   until it reaches the last array element. */
-  
 
+$colors=array("Red","Blue","Black");
+foreach ($colors as $value){
 
+    echo "$value <br>";
+}
+$age= array("Peter" =>"35","Kamotho" =>"30","Paul" =>"33");
+foreach($age as $name => $AGE){
+
+    echo "$name=$AGE <br>";
+
+}
 ?>
 </body>
 </html>
